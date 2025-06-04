@@ -1,0 +1,35 @@
+.btn, .btn-gray {
+  background: none;
+  border: none;
+  color: #23890a;
+  padding: 0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.btn-gray {
+  color: #333;
+}
+
+.btn[style*="color: red"], .btn-gray[style*="color: red"] {
+  color: #d32f2f !important;
+}
+.btn[style*="color: #23890a"], .btn-gray[style*="color: #23890a"] {
+  color: #23890a !important;
+}
+
+.btn:hover, .btn-gray:hover {
+  color: #176d07;
+}
+.btn-gray:hover {
+  color: #111;
+}
+.btn[style*="color: red"]:hover,
+.btn-gray[style*="color: red"]:hover {
+  color: #a60000 !important;
+}
+.btn[style*="color: #23890a"]:hover,
+.btn-gray[style*="color: #23890a"]:hover {
+  color: #176d07 !important;
+}
