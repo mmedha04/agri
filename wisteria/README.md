@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Wisteria: Sustainable Grocery Impact Tracker
 
-## Getting Started
+Wisteria is a full-stack web application designed to help users make environmentally and economically conscious grocery decisions. Built by a student team as part of CS 411: Database Systems at UIUC, the platform aggregates product environmental costs, location-based emissions, and user preferences to visualize sustainability impact.
 
-First, run the development server:
+> **⚠️ Note:** Due to discontinued access to Google Cloud Platform (GCP), the hosted backend/database is no longer active. While the code is available for review, live interaction is currently disabled.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-  **Grocery List Builder**: Add products from a curated database to your list.
+- **Environmental Impact Visualization**: View total emissions and transportation estimates based on your location.
+-  **Geolocation-Aware Emissions**: Fuel usage calculated using haversine distance between product origin and user.
+-  **Backend Stored Procedures**: Optimized MySQL procedures for list duplication, filtering, and aggregation.
+-  **Cloud-Based Architecture**:
+  - MySQL on GCP Cloud SQL
+  - Google Cloud Storage for image hosting
+-  **Sustainability Focus**: Encourages mindful food choices by exposing hidden environmental costs.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**: Next.js
+- **Backend**: Flask (Python)
+- **Database**: MySQL (hosted on GCP Cloud SQL)
+- **Cloud Services**: Google Cloud Storage (for product images)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Learning Outcomes
 
-## Deploy on Vercel
+- Designed normalized relational schemas and ER diagrams.
+- Implemented secure API routes for dynamic data interaction.
+- Wrote advanced SQL queries including `JOIN`, `GROUP BY`, and geospatial functions.
+- Deployed databases and storage on Google Cloud Platform.
+- Practiced full-stack collaboration in a team setting using Git and agile workflows.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Current Limitation
+
+Since GCP access has been suspended, API endpoints relying on the cloud-hosted database are inactive. However, you can still explore the codebase to review architecture, logic, and UI. I also have a video walkthrough of the application which is accessible at this link: 
+
+---
+
+## Contributors
+
+- Medha Muskula  
+- Vani Ramesh
+- Kathy Lee
+- Kevin Zhang
+
+
+
