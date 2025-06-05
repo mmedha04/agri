@@ -1,4 +1,4 @@
-# Wisteria: Sustainable Grocery Impact Tracker
+# Agri: Sustainable Grocery Impact Tracker
 
 Wisteria is a full-stack web application designed to help users make environmentally and economically conscious grocery decisions. Built by a student team as part of CS 411: Database Systems at UIUC, the platform aggregates product environmental costs, location-based emissions, and user preferences to visualize sustainability impact.
 
