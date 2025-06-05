@@ -40,7 +40,7 @@ Wisteria is a full-stack web application designed to help users make environment
 
 ## Current Limitation
 
-Since GCP access has been suspended, API endpoints relying on the cloud-hosted database are inactive. However, you can still explore the codebase to review architecture, logic, and UI. I also have a video walkthrough of the application which is accessible at this link: 
+Since GCP access has been suspended, API endpoints relying on the cloud-hosted database are inactive. However, you can still explore the codebase to review architecture, logic, and UI. I also have a video walkthrough of the application which is accessible at this link: https://www.canva.com/design/DAGl_LfJqjQ/YdqsnxARfnyDesVh5iGMqQ/edit?utm_content=DAGl_LfJqjQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ---
 
